@@ -1,0 +1,4 @@
+From docker.io/maysnow/rl
+
+RUN pip install torch torchvision torchaudio \
+    -i https://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
