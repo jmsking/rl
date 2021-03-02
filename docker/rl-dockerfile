@@ -6,3 +6,7 @@ RUN apt-get update && apt-get install -y libglu1-mesa-dev libgl1-mesa-dev \
 
 RUN pip install gym pyvirtualdisplay matplotlib jupyter \
     -i https://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
+
+RUN mkdir /app
+
+WORKDIR /app
